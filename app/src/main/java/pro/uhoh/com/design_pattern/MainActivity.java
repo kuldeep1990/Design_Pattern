@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements MainView, Adapter
         presenter = new MainPresenterImpl(this, new FindItemsInteractorImpl());
     }
 
+//    some changes
+
     @Override protected void onResume() {
         super.onResume();
         presenter.onResume();
