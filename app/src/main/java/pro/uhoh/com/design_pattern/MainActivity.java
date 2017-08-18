@@ -30,6 +30,12 @@ public class MainActivity extends AppCompatActivity implements MainView, Adapter
         listView.setOnItemClickListener(this);
         progressBar = (ProgressBar) findViewById(R.id.progress);
         presenter = new MainPresenterImpl(this, new FindItemsInteractorImpl());
+
+        test();
+    }
+
+    private void test() {
+//        testing changes
     }
 
 //    some changes
